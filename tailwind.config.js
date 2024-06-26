@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  important: true,
+  theme: {
+    extend: {
+      colors: {
+        primary: "#1a1818",
+        onPrimary: "#ece7e1",
+        background: "#ece7e1",
+        onBackground: "#1a1818",
+        secondary: "#003844",
+        onSecondary: "#FFFFFF",
+        dark: {
+          primary: "#ece7e1",
+          onPrimary: "#1a1818",
+          background: "#1a1818",
+          onBackground: "#ece7e1",
+        },
+      },
+      fontFamily: {
+        kalnia: ["Kalnia", "serif"],
+        rubik: ["Rubik", "sans-serif"],
+        megrim: ["Megrim", "system-ui"],
+        sedan: ["Sedan SC", "serif"],
+      },
+      fontSize: {
+        xs: ".75rem",
+        tiny: ".875rem",
+        sm: ".90rem",
+        base: ".95rem",
+        lg: "1.125rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "4rem",
+        "7xl": "5rem",
+        "8xl": "6rem",
+        "9xl": "7rem",
+        "10xl": "8rem",
+      },
+      fontWeight: {
+        thin: 200,
+        light: 300,
+        normal: 350,
+        medium: 400,
+        semibold: 600,
+        bold: 800,
+        black: 900,
+      },
+    },
+  },
+  plugins: [],
+};
